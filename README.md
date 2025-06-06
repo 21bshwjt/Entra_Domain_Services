@@ -71,6 +71,10 @@ Need to validate (During testing that has been automatically done)
 
 #### Active Directory Users & Computers
 <img src="https://github.com/21bshwjt/Entra_Domain_Services/blob/f48f2ea2d1fbfced8e5fb0a862a5e9e057d774a7/screenshots/dsa.png?raw=true" width="800" height="400">
+
+#### DNS Console
+<img src="https://github.com/21bshwjt/Entra_Domain_Services/blob/8c1ec91e730d1238f7f763c21221bd86eebc6a67/screenshots/dns.png?raw=true" width="800" height="400">
+
           
 
 
