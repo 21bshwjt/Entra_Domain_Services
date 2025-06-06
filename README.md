@@ -84,6 +84,12 @@ Need to validate (During testing that has been automatically done)
 #### Active Directory Administrative Center
 <img src="https://github.com/21bshwjt/Entra_Domain_Services/blob/cd3e37d06abeefeeb2758c7bbce34b00050d0049/screenshots/adac.png?raw=true" width="800" height="400">
 
+#### Repadmin 
+<img src="https://github.com/21bshwjt/Entra_Domain_Services/blob/e055eeb0e4c4b1473593da0edeb4c7310208df67/screenshots/Repadmin.png?raw=true" width="800" height="400">
+
+
+
+
 
 
           
