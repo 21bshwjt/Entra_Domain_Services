@@ -1,2 +1,2 @@
-# Entra_Domain_Services
+# Entra Domain Services
 Entra ID Domain Services
