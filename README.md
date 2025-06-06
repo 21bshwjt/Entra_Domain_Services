@@ -81,6 +81,9 @@ Need to validate (During testing that has been automatically done)
 #### Domain & Functional Lebel
 <img src="https://github.com/21bshwjt/Entra_Domain_Services/blob/54b57cdd8047414f325f77d38df96a19de4f40ec/screenshots/fl.png?raw=true" width="800" height="400">
 
+#### Active Directory Administrative Center
+<img src="https://github.com/21bshwjt/Entra_Domain_Services/blob/cd3e37d06abeefeeb2758c7bbce34b00050d0049/screenshots/adac.png?raw=true" width="800" height="400">
+
 
 
           
