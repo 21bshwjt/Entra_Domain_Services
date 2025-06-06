@@ -88,10 +88,14 @@ Need to validate (During testing that has been automatically done)
 <img src="https://github.com/21bshwjt/Entra_Domain_Services/blob/e055eeb0e4c4b1473593da0edeb4c7310208df67/screenshots/Repadmin.png?raw=true" width="800" height="400">
 
 
-𝘉𝘪𝘴𝘸𝘢𝘫𝘪𝘵 𝘉𝘪𝘴𝘸𝘢𝘴 𝘢.𝘬.𝘢 𝘣𝘴𝘩𝘸𝘫𝘵</br>
-𝘌𝘮𝘢𝘪𝘭: 𝘣𝘴𝘩𝘸𝘫𝘵@𝘨𝘮𝘢𝘪𝘭.𝘤𝘰𝘮</br>
-[𝘓𝘪𝘯𝘬𝘦𝘥𝘐𝘯](https://www.linkedin.com/in/bshwjt/)</br>
+---
+**Biswajit Biswas** (a.k.a. `bshwjt`)  
+📧 [bshwjt@gmail.com](mailto:bshwjt@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/bshwjt/)  
 💦 💦 💦
+---
+
+
 
 
 
