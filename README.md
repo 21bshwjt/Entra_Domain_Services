@@ -18,3 +18,55 @@
 | **Secure & Highly Available** | Microsoft handles replication, patching, and availability of the domain controllers. |
 
 
+###	Complete Steps to Set Up Entra ID Domain Services (AADDS) 
+Configuration has been completed with the Entra ID Free license
+
+###	Create a Virtual Network (VNet)
+- Ensure its regional and not peered with existing VNets where DNS conflicts might occur.
+  
+###	Deploy Entra ID Domain Services
+- From Entra Portal → Search "Azure AD Domain Services" → Create
+- Select the correct VNet and subnet.
+- Provide a domain name (e.g., corp.contoso.com).
+- Wait until provisioning completes (takes ~30–45 mins).
+  
+###	Update VNet DNS Settings
+- After AADDS deployment, copy the IP addresses of the domain controllers shown in the AADDS overview.
+- Go to your VNet > DNS settings and replace "Default" with those two IPs.
+- Save and wait a few minutes.
+  
+### Create a Windows VM (Management Server)
+- Place it in the same subnet/VNet as AADDS.
+- Make sure NSG/firewall rules allow RDP and domain join traffic.
+  
+###	Reboot the VM
+- Required so that it picks up the updated DNS settings from the VNet.
+  
+### Enable Password Hash Sync (if not already enabled)
+Need to validate (During testing that has been automatically done)
+- In Entra ID > Azure AD Connect, ensure password hash sync is enabled.
+- This is required for users to log in to AADDS.
+  
+### Reset Password for Admin Users (Important)
+- Even if password hash sync is on, users must reset their password after AADDS is enabled for the hashes to sync into AADDS.
+- Do this for the account you plan to use to join the domain.
+
+### Join the VM to the AADDS domain
+- Use: corp.contoso.com
+- Credentials: username@yourtenant.onmicrosoft.com (or a synced UPN)
+- Should be a member of the AAD DC Administrators group for management tasks.
+ 
+### Optional but Recommended:
+- Create an OU and Group Policy if needed in the domain using RSAT tools.
+- Install DNS and AD tools on your management server if you need them.
+- Check Time Sync (VM must sync with the domain’s time to avoid auth issues).
+ 
+### Common Mistakes to Avoid:
+- Forgetting to set custom DNS on the VNet.
+- Not resetting the user password after enabling AADDS.
+- Trying to join with an account not in the AADDC domain or not synced.
+- Trying to use regular Entra ID — remember, AADDS is not full Active Directory, it's a managed replica.
+
+
+
+
