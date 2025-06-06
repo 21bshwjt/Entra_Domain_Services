@@ -75,6 +75,14 @@ Need to validate (During testing that has been automatically done)
 #### DNS Console
 <img src="https://github.com/21bshwjt/Entra_Domain_Services/blob/8c1ec91e730d1238f7f763c21221bd86eebc6a67/screenshots/dns.png?raw=true" width="800" height="400">
 
+#### Default GPOs
+<img src="https://github.com/21bshwjt/Entra_Domain_Services/blob/54b57cdd8047414f325f77d38df96a19de4f40ec/screenshots/gpmc.png?raw=true" width="800" height="400">
+
+#### Domain & Functional Lebel
+<img src="https://github.com/21bshwjt/Entra_Domain_Services/blob/54b57cdd8047414f325f77d38df96a19de4f40ec/screenshots/fl.png?raw=true" width="800" height="400">
+
+
+
           
 
 
