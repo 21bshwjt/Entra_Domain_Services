@@ -67,7 +67,7 @@ Need to validate (During testing that has been automatically done)
 - Trying to join with an account not in the AADDC domain or not synced.
 - Trying to use regular Entra ID — remember, AADDS is not full Active Directory, it's a managed replica.
 
-### Screenshots from Management Server (Default Settings of Entra DS)
+### Screenshots from Management Server (Default Settings of Entra Directory Services)
 
 #### Active Directory Users & Computers
 <img src="https://github.com/21bshwjt/Entra_Domain_Services/blob/f48f2ea2d1fbfced8e5fb0a862a5e9e057d774a7/screenshots/dsa.png?raw=true" width="800" height="400">
